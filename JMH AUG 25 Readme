@@ -1,0 +1,172 @@
+# Unit 4 | Assignment - Pandas, Pandas, Pandas
+
+
+## Option 1: Heroes of Pymoli
+
+Heroes of Pymoli Data Analysis.
+The players are overwhelmingly male. There were 576 male players and only 179 female players.
+The 20-24 age group purchases the most items and had the highest purchase amount of all age groups.
+The total revenue generated for all players was $2379.77.
+The list of most profitable items is led by some of the most expensive items, rather than those that were purchased the most often. Items priced lower must be purchased at a much higher rate to deliver the same value as higher priced items, and the data does not show this occurring.
+
+
+
+
+### Player Count
+
+* Total Number of Players
+576
+
+
+### Purchasing Analysis (Total)
+
+* Number of Unique Items
+179
+
+
+* Total Number of Purchases
+780
+
+* Total Revenue
+2379.77
+
+
+
+
+### Gender Demographics
+
+* Percentage and Count of Male Players
+Gender
+Female                    81
+Male                     484
+Other / Non-Disclosed     11
+Name: SN, dtype: int64
+
+* Percentage and Count of Female Players
+
+Gender
+Female                   0.14
+Male                     0.84
+Other / Non-Disclosed    0.02
+Name: SN, dtype: float64
+
+* Percentage and Count of Other / Non-Disclosed
+
+Gender Count	Gender Percentage
+Gender		
+Female	81	0.141361
+Male	484	0.844677
+Other / Non-Disclosed	11	0.019197
+
+
+### Purchasing Analysis (Gender)
+
+* The below each broken by gender
+  Gender
+Female                   113
+Male                     652
+Other / Non-Disclosed     15
+Name: Item Name, dtype: int64
+
+
+Gender
+Female                   3.20
+Male                     3.02
+Other / Non-Disclosed    3.35
+Name: Price, dtype: float64
+
+Gender
+Female                    361.94
+Male                     1967.64
+Other / Non-Disclosed      50.19
+Name: Price, dtype: float64
+
+Gender
+Female                   4.47
+Male                     4.07
+Other / Non-Disclosed    4.56
+dtype: float64
+
+
+Purchase Count	Average Purchase Price	Total Purchase Value	Normalized Totals
+Gender				
+Female	(Female, [Deadline, Voice Of Subtlety, Nirvana...	3.203009	361.94	4.468395
+Male	(Male, [Extraction, Quickblade Of Trembling Ha...	3.017853	1967.64	4.065372
+Other / Non-Disclosed	(Other / Non-Disclosed, [Ghastly Adamantite Pr...	3.346000	50.19	4.562727
+
+
+### Age Demographics
+
+* The below each broken into bins of 4 years (i.e. &lt;10, 10-14, 15-19, etc.)
+ 
+20-24    0.42
+15-19    0.26
+25-29    0.10
+10-14    0.07
+30-34    0.07
+35-39    0.04
+<10      0.04
+>=40     0.01
+Name: Age Range, dtype: float64
+
+Age Range
+<10       32
+10-14     54
+15-19    200
+20-24    325
+25-29     77
+30-34     52
+35-39     33
+>=40       7
+Name: Item Name, dtype: int64
+
+Age Range
+<10      3.40
+10-14    2.90
+15-19    3.11
+20-24    3.02
+25-29    2.88
+30-34    2.99
+35-39    3.40
+>=40     3.08
+Name: Price, dtype: float64
+
+Age Range
+<10      108.96
+10-14    156.60
+15-19    621.56
+20-24    981.64
+25-29    221.42
+30-34    155.71
+35-39    112.35
+>=40      21.53
+Name: Price, dtype: float64
+
+Age Range
+<10      0.19
+10-14    0.27
+15-19    1.08
+20-24    1.71
+25-29    0.39
+30-34    0.27
+35-39    0.20
+>=40     0.04
+Name: Price, dtype: float64
+
+
+
+
+### Top Spenders
+
+* Identify the the top 5 spenders in the game by total purchase value, then list (in a table):
+  
+### Most Popular Items
+
+* Identify the 5 most popular items by purchase count, then list (in a table):
+  
+### Most Profitable Items
+
+* Identify the 5 most profitable items by total purchase value, then list (in a table):
+ 
+ 
+ 
