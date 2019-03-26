@@ -1,6 +1,7 @@
 import os
 import csv
 
+
 #choose 1 or 2
 file_num = 1
 
